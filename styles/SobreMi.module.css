@@ -1,0 +1,33 @@
+.image-container {
+    width: 250px;
+    align-self: center;
+    padding-right: 50px;
+}
+
+.retrato {
+    border-radius: 100%;
+}
+
+.description {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    text-align: left;
+}
+.description-text {
+   flex: 1;
+}
+
+@media (max-width: 750px){
+    .description {
+        flex-direction: column;
+        text-align: center;
+    }
+    .description-text {
+        flex: auto;
+    }
+    .image-container {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}

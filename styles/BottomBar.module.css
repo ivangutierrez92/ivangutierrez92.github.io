@@ -1,0 +1,29 @@
+.NavBar {
+    display: none;
+}
+
+.sidebar-description {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .NavBar {
+        position: fixed;
+        display: flex;
+        height: 50px;
+        width: 100%;
+        bottom: 0;
+        background-color: rgb(202, 209, 209);
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .button {
+        cursor: pointer;
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+        padding: 0;
+      }
+}

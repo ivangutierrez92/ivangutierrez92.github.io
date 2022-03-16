@@ -1,0 +1,25 @@
+.Footer {
+    display: flex;
+    padding: 20px 50px 50px 50px;
+    justify-content: space-between;
+}
+.contacto, .social {
+    margin: 0 auto auto auto;
+    
+}
+.contacto a {
+    color: blue;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 750px){
+    .Footer {
+        flex-direction: column;
+    }
+    .social {
+        margin-bottom: 30px;
+    }
+}
