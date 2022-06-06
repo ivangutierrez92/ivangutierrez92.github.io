@@ -17,8 +17,12 @@ const Footer = () => {
           <a href="https://github.com/llamafluida" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} className="fa-2x" />
           </a>
-          <a href="https://www.linkedin.com/in/ivan-gutierrez-castro/" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} className="fa-2x"/>
+          <a
+            href="https://www.linkedin.com/in/ivan-gutierrez-castro/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
           </a>
         </div>
       </div>

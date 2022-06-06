@@ -1,9 +1,8 @@
 import '../styles/globals.css';
-import Layout from '../components/Layout';
+import Layout from '../containers/Layout';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Head from 'next/head';
-import ThemeProvider from '../context/ThemeProvider';
 config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
@@ -14,11 +13,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
       </Head>
-      <ThemeProvider>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </ThemeProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

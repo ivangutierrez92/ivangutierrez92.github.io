@@ -1,25 +1,29 @@
 .Footer {
-    display: flex;
-    padding: 20px 50px 50px 50px;
-    justify-content: space-between;
+  display: flex;
+  padding: 50px 50px 50px 50px;
+  justify-content: space-between;
+  background-color: #0f0c24;
+  color: white;
 }
-.contacto, .social {
-    margin: 0 auto auto auto;
-    
+.contacto,
+.social {
+  margin: 0 auto auto auto;
 }
 .contacto a {
-    color: blue;
+  color: #006774;
+  font-weight: 600;
 }
 .social-icons {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  color: #006774;
 }
 
-@media (max-width: 750px){
-    .Footer {
-        flex-direction: column;
-    }
-    .social {
-        margin-bottom: 30px;
-    }
+@media (max-width: 750px) {
+  .Footer {
+    flex-direction: column;
+  }
+  .social {
+    margin-bottom: 30px;
+  }
 }

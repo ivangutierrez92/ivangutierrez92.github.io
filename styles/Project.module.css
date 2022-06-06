@@ -1,19 +1,89 @@
 .Project {
-    max-width: 800px;
-    margin: auto;
-    margin-bottom: 100px;
-    padding: 50px;
-    border: 1px solid gray;
+  padding: 0 0 100px 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(170, 170, 170);
 }
-
+.Info {
+  display: flex;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.Title {
+  flex: 1;
+  margin-right: 20px;
+}
+.Description {
+  flex: 1;
+}
+.Title__text {
+  font-size: 2rem;
+  margin-top: 15px;
+  line-height: 60px;
+  text-indent: -50px;
+}
+.Description__text {
+  font-size: 1.3rem;
+  line-height: 31px;
+}
+.CallToAction {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #006774;
+}
 .image-container {
-    max-width: 430px;
-    margin: auto;   
-    margin-bottom: 50px;
-    border: 1px solid black;
-    padding: 0;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 0;
+}
+.List {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+  column-gap: 70px;
+  padding: 0 0 0 90px;
+  font-size: 1.3rem;
+}
+.List__item {
+  margin-bottom: 10px;
+}
+.List__item::before {
+  content: '';
+  height: 8px;
+  width: 8px;
+  background-color: #006774;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
+.Technologies__title {
+  font-size: 1.5rem;
+}
+@media (max-width: 750px) {
+  .Project {
+    padding: 50px 25px;
+  }
+  .Info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Title__text {
+    text-indent: 0;
+    line-height: 1.44;
+    margin-bottom: 0;
+  }
 }
 
-.image {
-    display: block;
+@media (max-width: 500px) {
+  .List {
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    text-align: center;
+    padding: 0;
+    font-size: 1.1rem;
+  }
 }
