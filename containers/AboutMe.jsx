@@ -62,7 +62,7 @@ const AboutMe = () => {
             transition={{ duration: 0.7, ease: 'easeInOut' }}
           >
             Además de programar, me interesa la fotografía, tocar música, videojuegos, y la lectura.
-            Soy un firme creyente que el aprendizaje continuo (e inteligente) es escencial, y que
+            Soy un firme creyente que el aprendizaje continuo (e inteligente) es esencial, y que
             tan importante como saber qué no sabes, es saber dónde buscarlo.
           </motion.p>
         </div>
