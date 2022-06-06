@@ -17,9 +17,6 @@ const variants = {
 const AboutMe = () => {
   return (
     <>
-      <Head>
-        <title>Portafolio - Sobre mí</title>
-      </Head>
       <div className={styles.AboutMe}>
         <div className={styles.Title}>
           <motion.h2
