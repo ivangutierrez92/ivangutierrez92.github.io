@@ -46,10 +46,10 @@ export default function Home() {
         </div>
         <div className={styles.ImageContainer}>
           <Image
-            src="/banner.png"
+            src="/banner.jpg"
             alt="imagen del autor"
-            width={3000}
-            height={3000}
+            width={1000}
+            height={1000}
             layout="responsive"
           />
         </div>
