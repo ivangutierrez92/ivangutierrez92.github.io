@@ -1,0 +1,21 @@
+.MenuButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #006774;
+  border: none;
+  width: 56px;
+  height: 56px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 2;
+  padding-left: 8px;
+  padding-top: 4px;
+}
+.MenuButton__icon {
+  font-size: 32px;
+}

@@ -1,0 +1,32 @@
+.Menu {
+  width: 570px;
+  height: 100%;
+  background-color: #1c1d20;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  text-align: left;
+  overflow-y: auto;
+  padding: 80px 50px 50px 50px;
+}
+.Nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Nav__link {
+  color: white;
+  display: inline-block;
+  font-size: 2.7rem;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .Menu {
+    width: 100%;
+    padding: 80px 50px 50px 20px;
+  }
+}

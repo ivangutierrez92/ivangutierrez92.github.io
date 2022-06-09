@@ -6,7 +6,7 @@ import Portafolio from '../containers/Portfolio';
 import SobreMi from '../containers/AboutMe';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
-import Header from '../components/Header';
+import Header from '../containers/Header';
 
 export default function Home() {
   const topAnchor = useRef(null);
