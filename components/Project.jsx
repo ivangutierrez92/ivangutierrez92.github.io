@@ -32,12 +32,12 @@ const Project = ({ project }) => {
           />
         </div>
       </a>
-      <div className={styles.Tecnologies}>
-        <h2 className={styles['Technologies__title']}>Tecnologías</h2>
+      <div className={styles.Tools}>
+        <h2 className={styles['Tools__title']}>Herramientas</h2>
         <ul className={styles.List}>
-          {project.technologies.map((technology, key) => (
-            <li className={styles['List__item']} key={`listItem-${key}`}>
-              {technology}
+          {project.tools.map((tool, key) => (
+            <li className={styles['List__tool']} key={`tool-${key}`}>
+              {tool}
             </li>
           ))}
         </ul>

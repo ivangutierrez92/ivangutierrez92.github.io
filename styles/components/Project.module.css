@@ -47,10 +47,10 @@
   padding: 0 0 0 90px;
   font-size: 1.3rem;
 }
-.List__item {
+.List__tool {
   margin-bottom: 10px;
 }
-.List__item::before {
+.List__tool::before {
   content: '';
   height: 8px;
   width: 8px;
@@ -60,7 +60,7 @@
   margin-bottom: 3px;
   margin-right: 5px;
 }
-.Technologies__title {
+.Tools__title {
   font-size: 1.5rem;
 }
 @media (max-width: 750px) {

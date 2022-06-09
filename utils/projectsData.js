@@ -4,8 +4,8 @@ export default [
     url: 'https://llamafluida.github.io/pomodoro/',
     src: '/images/pomodoro-preview.png',
     description:
-      'Aplicación web para el manejo efectivo de tu tiempo, que puedes instalar y usar sin conexión.',
-    technologies: ['React', 'NextJS', 'PWA', 'Flexbox', 'Formik', 'Yup', 'FontAwesome'],
+      'Aplicación web Progresiva (PWA) para el manejo efectivo de tu tiempo, que puedes instalar y usar sin conexión.',
+    tools: ['React', 'NextJS', 'PWA', 'Local storage', 'Flexbox', 'Formik', 'Yup', 'FontAwesome'],
     icon: '🍅',
   },
   {
@@ -14,7 +14,17 @@ export default [
     src: '/images/whereintheworld-preview.png',
     description:
       'Página para ver información de los países del mundo, alimentada por una REST API. Reto de Frontend Mentor',
-    technologies: ['React', 'NextJS', 'REST API', 'Dark Mode', 'Flexbox', 'Sass', 'react-select'],
+    tools: [
+      'React',
+      'NextJS',
+      'REST API',
+      'Local storage',
+      'Dark Mode',
+      'Flexbox',
+      'CSS Grid',
+      'Sass',
+      'react-select',
+    ],
     icon: '🌎',
   },
   {
@@ -22,7 +32,7 @@ export default [
     url: 'https://llamafluida.github.io/fotollama',
     src: '/images/fotollama-preview.png',
     description: 'Página personal donde pueden encontrar mis trabajos de fotografía',
-    technologies: ['React', 'NextJS', 'Framer Motion', 'Flexbox', 'react-responsive'],
+    tools: ['React', 'NextJS', 'Framer Motion', 'Flexbox', 'react-responsive'],
     icon: '📷',
   },
 ];
