@@ -1,9 +1,9 @@
 import { useRef } from 'react';
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/pages/Home.module.css';
 import Image from 'next/image';
 import Portafolio from '../containers/Portfolio';
-import SobreMi from '../containers/AboutMe';
+import SobreMi from '../components/AboutMe';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import Header from '../containers/Header';

@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../components/Project';
 import projectsData from '../utils/projectsData';
-import styles from '../styles/Portfolio.module.css';
+import styles from '../styles/containers/Portfolio.module.css';
 import { motion } from 'framer-motion';
 
 const Portafolio = () => {

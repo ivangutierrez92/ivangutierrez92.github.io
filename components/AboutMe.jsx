@@ -1,6 +1,5 @@
 import React from 'react';
-import Head from 'next/head';
-import styles from '../styles/AboutMe.module.css';
+import styles from '../styles/components/AboutMe.module.css';
 import { motion } from 'framer-motion';
 
 const variants = {
@@ -62,8 +61,8 @@ const AboutMe = () => {
             transition={{ duration: 0.7, ease: 'easeInOut' }}
           >
             Además de programar, me interesa la fotografía, tocar música, videojuegos, y la lectura.
-            Soy un firme creyente que el aprendizaje continuo (e inteligente) es esencial, y que
-            tan importante como saber qué no sabes, es saber dónde buscarlo.
+            Soy un firme creyente que el aprendizaje continuo (e inteligente) es esencial, y que tan
+            importante como saber qué no sabes, es saber dónde buscarlo.
           </motion.p>
         </div>
       </div>

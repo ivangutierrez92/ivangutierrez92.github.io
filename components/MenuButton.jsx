@@ -1,6 +1,6 @@
 import React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import styles from '../styles/MenuButton.module.css';
+import styles from '../styles/components/MenuButton.module.css';
 
 const Path = props => (
   <motion.path fill="transparent" strokeWidth="3" stroke="white" strokeLinecap="round" {...props} />

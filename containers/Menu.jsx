@@ -1,6 +1,6 @@
 import React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import styles from '../styles/Menu.module.css';
+import styles from '../styles/containers/Menu.module.css';
 
 const Menu = ({ menuIsOpen, children }) => {
   return (

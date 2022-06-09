@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import styles from '../styles/Header.module.css';
-import menuStyles from '../styles/Menu.module.css';
+import styles from '../styles/containers/Header.module.css';
+import menuStyles from '../styles/containers/Menu.module.css';
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import Navigation from '../components/Navigation';
