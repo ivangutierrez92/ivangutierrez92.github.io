@@ -29,6 +29,9 @@
   font-size: 1.1rem;
   font-weight: 600;
   color: #006774;
+  display: block;
+  width: fit-content;
+  line-height: 1.6;
 }
 .image-container {
   max-width: 700px;

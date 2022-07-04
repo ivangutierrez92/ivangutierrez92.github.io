@@ -29,10 +29,14 @@ export default [
   },
   {
     title: 'Portafolio de Fotografías',
-    url: 'https://llamafluida.github.io/fotollama',
+    url: [
+      { title: 'React', content: 'https://llamafluida.github.io/fotollama/' },
+      { title: 'Next.js', content: 'https://llamafluida.github.io/fotollama-next/' },
+    ],
     src: '/images/fotollama-preview.png',
-    description: 'Página personal donde pueden encontrar mis trabajos de fotografía',
-    tools: ['React', 'NextJS', 'Framer Motion', 'Flexbox', 'react-responsive'],
+    description:
+      'Página personal donde pueden encontrar mis trabajos de fotografía, disponible en React y Next.js',
+    tools: ['React', 'React Router', 'Framer Motion', 'Flexbox', 'Grid', 'react-responsive'],
     icon: '📷',
   },
 ];
