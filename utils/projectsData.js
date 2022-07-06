@@ -5,7 +5,7 @@ export default [
     src: '/images/pomodoro-preview.png',
     description:
       'Aplicación web Progresiva (PWA) para el manejo efectivo de tu tiempo, que puedes instalar y usar sin conexión.',
-    tools: ['React', 'NextJS', 'PWA', 'Local storage', 'Flexbox', 'Formik', 'Yup', 'FontAwesome'],
+    tools: ['React', 'NextJS', 'PWA', 'Local storage', 'Flexbox', 'Sass', 'Formik', 'Yup', 'FontAwesome'],
     icon: '🍅',
   },
   {
@@ -22,7 +22,6 @@ export default [
       'Dark Mode',
       'Flexbox',
       'CSS Grid',
-      'Sass',
       'react-select',
     ],
     icon: '🌎',
