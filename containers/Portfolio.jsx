@@ -12,7 +12,7 @@ const Portafolio = () => {
           className={styles['Title__text']}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: 'easeInOut' }}
+          transition={{ duration: 0.8, ease: 'easeInOut' }}
         >
           El mundo al alcance de una app
         </motion.h2>

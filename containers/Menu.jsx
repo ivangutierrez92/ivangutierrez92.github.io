@@ -12,7 +12,7 @@ const Menu = ({ menuIsOpen, children }) => {
             initial={{ x: 600 }}
             animate={{ x: 0 }}
             exit={{ x: 600 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5, ease: 'easeOut' }}
           >
             {children}
           </motion.div>

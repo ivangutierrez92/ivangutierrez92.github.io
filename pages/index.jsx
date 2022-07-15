@@ -31,15 +31,15 @@ export default function Home() {
             className={styles['Presentation__text']}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.7, duration: 1 }}
+            transition={{ delay: 0.7, duration: 0.8, ease: 'easeInOut' }}
           >
             Hola, mi nombre es Iván
           </motion.h2>
           <motion.h2
             className={styles['Presentation__text']}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1.2 }}
-            transition={{ delay: 1.5, duration: 1.2 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5, duration: 0.8, ease: 'easeInOut' }}
           >
             Bienvenido a mi Portafolio Web
           </motion.h2>
