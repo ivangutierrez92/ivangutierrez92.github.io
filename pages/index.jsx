@@ -48,8 +48,8 @@ export default function Home() {
           <Image
             src="/banner.jpg"
             alt="imagen del autor"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             layout="responsive"
             priority
           />

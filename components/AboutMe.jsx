@@ -24,6 +24,7 @@ const AboutMe = () => {
             initial={'start'}
             whileInView={'visible'}
             transition={{ duration: 0.8, ease: 'easeInOut' }}
+            viewport={{once: true}}
           >
             En transición de los libros al código
           </motion.h2>
@@ -35,6 +36,7 @@ const AboutMe = () => {
             initial={'start'}
             whileInView={'visible'}
             transition={{ duration: 0.8, ease: 'easeInOut' }}
+            viewport={{once: true}}
           >
             Mi nombre es Iván Gutiérrez, estudié para bibliotecólogo, pero el mundo de la
             programación siempre me interesó. Aprendí por mi cuenta a programar, y cuando tuve la
@@ -49,6 +51,7 @@ const AboutMe = () => {
             initial={'start'}
             whileInView={'visible'}
             transition={{ duration: 0.8, ease: 'easeInOut' }}
+            viewport={{once: true}}
           >
             Manejo inglés a nivel medio avanzado, teniendo un certificado B2 de Cambridge English, y
             estoy preparándome para el certificado AZ-900 de Microsoft Azure.
@@ -59,6 +62,7 @@ const AboutMe = () => {
             initial={'start'}
             whileInView={'visible'}
             transition={{ duration: 0.8, ease: 'easeInOut' }}
+            viewport={{once: true}}
           >
             Además de programar, me interesa la fotografía, tocar música, videojuegos, y la lectura.
             Soy un firme creyente que el aprendizaje continuo (e inteligente) es esencial, y que tan
