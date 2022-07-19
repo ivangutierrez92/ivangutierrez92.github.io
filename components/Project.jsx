@@ -34,7 +34,11 @@ const Project = ({ project }) => {
         </div>
       </div>
 
-      <a href={project.url} target="_blank" rel="noreferrer">
+      <a
+        href={typeof project.url == 'string' ? project.url : project.url[0].content}
+        target="_blank"
+        rel="noreferrer"
+      >
         <div className={styles['image-container']}>
           <Image
             src={project.src}
