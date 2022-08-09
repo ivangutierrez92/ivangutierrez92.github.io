@@ -27,7 +27,7 @@ const Project = ({ project }) => {
                 rel="noreferrer"
                 key={`project-url-${url.title}-${index}`}
               >
-                Ver projecto {url.title}
+                Ver proyecto {url.title}
               </a>
             ))
           )}

@@ -36,7 +36,7 @@ const Header = ({ topAnchor, portfolioAnchor, aboutMeAnchor, contactAnchor }) =>
         onViewportLeave={leaveView}
         onViewportEnter={enterView}
       >
-        <div className={styles.Logo}>
+        <div className={styles.Logo} aria-hidden>
           <Image src={'/images/logo.png'} width={65} height={65} alt="Logo de una llama" />
         </div>
 
@@ -58,7 +58,13 @@ const Header = ({ topAnchor, portfolioAnchor, aboutMeAnchor, contactAnchor }) =>
 
       <Menu menuIsOpen={menuIsOpen}>
         <button className={styles.BackTopButton} onClick={() => anchorClicked(topAnchor)}>
-          <Image src={'/images/logo.png'} width={65} height={65} alt="Logo de una llama" />
+          <Image
+            aria-hidden
+            src={'/images/logo.png'}
+            width={65}
+            height={65}
+            alt="Logo de una llama"
+          />
         </button>
         <div className={styles.MenuTitle}>
           <p className={styles['MenuTitle__text']}>Navegación</p>

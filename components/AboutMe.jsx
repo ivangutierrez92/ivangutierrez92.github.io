@@ -41,8 +41,8 @@ const AboutMe = () => {
             Mi nombre es Iván Gutiérrez, estudié para bibliotecólogo, pero el mundo de la
             programación siempre me interesó. Aprendí por mi cuenta a programar, y cuando tuve la
             oportunidad, estudié para técnico en programación computacional. Tengo conocimientos
-            generales del back-end, con leguajes como C# y SQL, pero mi área de especialización es
-            el front-end como desarrollador web, con HTML, CSS, Javascript, especialmente con la
+            generales del back-end, con lenguajes como C# y SQL, pero mi área de especialización es
+            el front-end como desarrollador web, con HTML, CSS, JavaScript, especialmente con la
             librería de React.
           </motion.p>
           <motion.p

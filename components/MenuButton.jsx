@@ -13,6 +13,7 @@ const MenuButton = ({ isMobile, isInView, toggleMenu, menuIsOpen }) => {
         <motion.button
           className={styles.MenuButton}
           onClick={toggleMenu}
+          aria-label="Cerrar"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}

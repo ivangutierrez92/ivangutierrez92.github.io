@@ -10,13 +10,13 @@
   margin: 0 auto auto auto;
 }
 .contacto a {
-  color: #006774;
+  color: #0090a3;
   font-weight: 600;
 }
 .social-icons {
   display: flex;
   justify-content: space-around;
-  color: #006774;
+  color: #0090a3;
 }
 
 @media (max-width: 750px) {
