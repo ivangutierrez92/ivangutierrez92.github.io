@@ -14,26 +14,12 @@ const Project = ({ project }) => {
         </div>
         <div className={styles.Description}>
           <p className={styles['Description__text']}>{project.description}</p>
-          {typeof project.url == 'string' ? (
-            <a className={styles.CallToAction} href={project.url} target="_blank" rel="noreferrer">
-              Ver Proyecto
-            </a>
-          ) : (
-            project.url.map((url, index) => (
-              <a
-                className={styles.CallToAction}
-                href={url.content}
-                target="_blank"
-                rel="noreferrer"
-                key={`project-url-${url.title}-${index}`}
-              >
-                Ver proyecto {url.title}
-              </a>
-            ))
-          )}
+
+          <a className={styles.CallToAction} href={project.url} target="_blank" rel="noreferrer">
+            Ver Proyecto
+          </a>
         </div>
       </div>
-
       <a
         href={typeof project.url == 'string' ? project.url : project.url[0].content}
         target="_blank"
