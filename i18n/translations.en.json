@@ -1,3 +1,20 @@
 {
-  "greeting": "Hello, my name is Iván"
+  "greeting": "Hello, my name is Iván",
+  "welcome": "Welcome to my Web Portfolio",
+  "portfolio": "Portfolio",
+  "about_me": "About me",
+  "navigation": "Navigation",
+  "contact": "Contact",
+  "world_phrase": "The world at the reach of an app",
+  "see_project": "See Project",
+  "photo_port": "Photography Portfolio",
+  "photo_port_desc": "Personal site where you can find my photography works.",
+  "world_desc": "Site to see information about the countries of the world, it consumes a REST API to work. Challenge from Frontend Mentor.",
+  "pomodoro_desc": "Progressive Web App (PWA) to make an effective use of the time. It can be installed to use offline",
+  "tools": "Tools",
+  "books_code": "In transition from the books to the code",
+  "about_me_p_1": "My name is Iván Gutiérrez, I studied for librarian, but the programming world always interested me. I learnt by myself, and when I had the opportunity, I studied for Computer Programming Technician. Lastly, I studied MERN in the Mindhub Bootcamp, where we made team projects simulating a real work environment. I know some Java, C#, and SQL, but my specialty is the MERN Stack (MongoDB, Express, React, Node).",
+  "about_me_p_2": "My level of english is upper intermediate, having a B2 certificate from Cambridge (FCE). I also have an Azure AZ-900 (Fundamentals), from Microsoft.",
+  "about_me_p_3": "Besides of programming, I like to take photos, read, and play videogames and boardgames. In the past I was in a chorus, I was in a storytelling course, and my favorite animal is the llama.",
+  "find_me": "Find me too in"
 }

@@ -1,6 +1,9 @@
+import { useTranslation } from 'next-export-i18n';
 import React from 'react';
+import LanguageButton from '../components/languageButton';
 
 const Navigation = ({ styles, anchorClicked, portfolioAnchor, aboutMeAnchor, contactAnchor }) => {
+  const { t } = useTranslation();
   return (
     <nav className={styles.Nav}>
       <button
@@ -8,22 +11,23 @@ const Navigation = ({ styles, anchorClicked, portfolioAnchor, aboutMeAnchor, con
         className={styles['Nav__link']}
         onClick={() => anchorClicked(portfolioAnchor)}
       >
-        Portafolio
+        {t("portfolio")}
       </button>
       <button
         role="link"
         className={styles['Nav__link']}
         onClick={() => anchorClicked(aboutMeAnchor)}
       >
-        Sobre mí
+        {t("about_me")}
       </button>
       <button
         role="link"
         className={styles['Nav__link']}
         onClick={() => anchorClicked(contactAnchor)}
       >
-        Contacto
+        {t("contact")}
       </button>
+      <LanguageButton styles={styles} />
     </nav>
   );
 };

@@ -4,7 +4,7 @@ const nextConfig = {
   compress: true,
   images: {
     loader: 'akamai',
-    path: '',
+    path: '/',
   },
   productionBrowserSourceMaps: true,
 }

@@ -38,6 +38,36 @@
   cursor: pointer;
 }
 
+.container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.container [data-language-switcher] {
+  font-size: 0.75rem;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+}
+.container [data-language-switcher]:nth-child(1) {
+  border-right: 1px solid white;
+  border-radius: 4px 0 0 4px;
+}
+.container [data-language-switcher]:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.container [data-is-current="false"] {
+  background-color: transparent;
+  cursor: pointer;
+}
+.container [data-is-current="true"] {
+  background-color: #45505C;
+}
+
 @media (max-width: 750px) {
   .Header {
     display: none;

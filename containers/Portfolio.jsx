@@ -3,8 +3,10 @@ import Project from '../components/Project';
 import projectsData from '../utils/projectsData';
 import styles from '../styles/containers/Portfolio.module.css';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'next-export-i18n';
 
 const Portafolio = () => {
+  const { t } = useTranslation();
   return (
     <div className={styles.Portfolio}>
       <div className={styles.Title}>
@@ -15,7 +17,7 @@ const Portafolio = () => {
           transition={{ duration: 0.8, ease: 'easeInOut' }}
           viewport={{ once: true }}
         >
-          El mundo al alcance de una app
+          {t("world_phrase")}
         </motion.h2>
       </div>
       {projectsData.map((project, key) => (

@@ -24,6 +24,40 @@
   border: none;
   cursor: pointer;
 }
+.container {
+  position: relative;
+  top: unset;
+  right: unset;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.container [data-language-switcher] {
+  font-size: 1rem;
+  display: block;
+  padding: 6px 12px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  
+}
+.container [data-language-switcher]:nth-child(1) {
+  border-right: 1px solid white;
+  border-radius: 4px 0 0 4px;
+}
+.container [data-language-switcher]:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.container [data-is-current="false"] {
+  background-color: transparent;
+  cursor: pointer;
+}
+.container [data-is-current="true"] {
+  background-color: #45505C;
+}
 @media (max-width: 750px) {
   .Menu {
     width: 100%;

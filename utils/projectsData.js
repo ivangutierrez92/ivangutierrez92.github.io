@@ -4,7 +4,7 @@ export default [
     url: 'https://ivangutierrez92.github.io/pomodoro/',
     src: '/images/pomodoro-preview.png',
     description:
-      'Aplicación web Progresiva (PWA) para el manejo efectivo de tu tiempo, que puedes instalar y usar sin conexión.',
+      'pomodoro_desc',
     tools: [
       'React',
       'NextJS',
@@ -23,7 +23,7 @@ export default [
     url: 'https://ivangutierrez92.github.io/where-in-the-world/',
     src: '/images/whereintheworld-preview.png',
     description:
-      'Página para ver información de los países del mundo, alimentada por una REST API. Reto de Frontend Mentor',
+      'world_desc',
     tools: [
       'React',
       'NextJS',
@@ -37,10 +37,10 @@ export default [
     icon: '🌎',
   },
   {
-    title: 'Portafolio de Fotografías',
+    title: 'photo_port',
     url: 'https://ivangutierrez92.github.io/fotollama/',
     src: '/images/fotollama-preview.png',
-    description: 'Página personal donde pueden encontrar mis trabajos de fotografía',
+    description: 'photo_port_desc',
     tools: ['React', 'NextJS', 'Framer Motion', 'Flexbox', 'Grid', 'react-responsive'],
     icon: '📷',
   },

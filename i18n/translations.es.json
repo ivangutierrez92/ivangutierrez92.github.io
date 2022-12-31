@@ -1,3 +1,20 @@
 {
-  "greeting": "Hola, mi nombre es Iván"
+  "greeting": "Hola, mi nombre es Iván",
+  "welcome": "Bienvenido a mi Portafolio Web",
+  "portfolio": "Portafolio",
+  "about_me": "Sobre mí",
+  "navigation": "Navegación",
+  "contact": "Contacto",
+  "world_phrase": "El mundo al alcance de una app",
+  "see_project": "Ver Proyecto",
+  "photo_port": "Portafolio de Fotografías",
+  "photo_port_desc": "Página personal donde pueden encontrar mis trabajos de fotografía.",
+  "world_desc": "Página para ver información de los países del mundo, alimentada por una REST API. Reto de Frontend Mentor.",
+  "pomodoro_desc": "Aplicación web Progresiva (PWA) para el manejo efectivo de tu tiempo, que puedes instalar y usar sin conexión.",
+  "tools": "Herramientas",
+  "books_code": "En transición de los libros al código",
+  "about_me_p_1": "Mi nombre es Iván Gutiérrez, estudié para bibliotecólogo, pero el mundo de la programación siempre me interesó. Aprendí por mi cuenta a programar, y cuando tuve la oportunidad, estudié para técnico en programación computacional. Finalmente, estudié MERN en el Bootcamp Mindhub, donde hicimos proyectos en equipo simulando un ambiente laboral real, con metodologías ágiles y Git. Sé algo de Java, C# y SQL, pero mi especialidad es el stack MERN (MongoDB, Express, React, Node).",
+  "about_me_p_2": "Manejo inglés a nivel medio avanzado, teniendo un certificado B2 de Cambridge (FCE). También tengo un certificado de Azure, el AZ-900 (Fundamentals), de Microsoft",
+  "about_me_p_3": "Además de programar, me interesa la fotografía, la lectura, los videojuegos y los juegos de mesa. Estuve en un coro alguna vez, participé en un curso de cuentacuentos, y mi animal favorito es la llama.",
+  "find_me": "Encuentrame también en"
 }

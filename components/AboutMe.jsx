@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/components/AboutMe.module.css';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'next-export-i18n';
 
 const variants = {
   start: {
@@ -14,6 +15,7 @@ const variants = {
 };
 
 const AboutMe = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className={styles.AboutMe}>
@@ -26,7 +28,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
           >
-            En transición de los libros al código
+            {t("books_code")}
           </motion.h2>
         </div>
         <div className={styles.Description}>
@@ -38,12 +40,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
           >
-            Mi nombre es Iván Gutiérrez, estudié para bibliotecólogo, pero el mundo de la
-            programación siempre me interesó. Aprendí por mi cuenta a programar, y cuando tuve la
-            oportunidad, estudié para técnico en programación computacional. Tengo conocimientos
-            generales del back-end, con lenguajes como C# y SQL, pero mi área de especialización es
-            el front-end como desarrollador web, con HTML, CSS, JavaScript, especialmente con la
-            librería de React.
+            {t("about_me_p_1")}
           </motion.p>
           <motion.p
             className={styles['Description__text']}
@@ -53,8 +50,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
           >
-            Manejo inglés a nivel medio avanzado, teniendo un certificado B2 de Cambridge English, y
-            estoy preparándome para el certificado AZ-900 de Microsoft Azure.
+            {t("about_me_p_2")}
           </motion.p>
           <motion.p
             className={styles['Description__text']}
@@ -64,9 +60,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
           >
-            Además de programar, me interesa la fotografía, tocar música, videojuegos, y la lectura.
-            Soy un firme creyente que el aprendizaje continuo (e inteligente) es esencial, y que tan
-            importante como saber qué no sabes, es saber dónde buscarlo.
+            {t("about_me_p_3")}
           </motion.p>
         </div>
       </div>

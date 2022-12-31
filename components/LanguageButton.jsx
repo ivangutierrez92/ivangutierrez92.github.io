@@ -1,12 +1,15 @@
 import React from 'react';
-import styles from '../styles/components/LanguageButton.module.css';
+import { LanguageSwitcher } from 'next-export-i18n';
 
-const LanguageButton = ({lang = "es"}) => {
-
+const LanguageButton = ({styles}) => {
   return (
     <div className={styles.container}>
-      <button className={`${styles.button} ${lang === "es" ? styles["button--active"] : styles["button--inactive"]}`}>ES</button>
-      <button className={`${styles.button} ${lang === "en" ? styles["button--active"] : styles["button--inactive"]}`}>EN</button>
+      <LanguageSwitcher lang="es">
+          ES
+      </LanguageSwitcher>
+      <LanguageSwitcher lang="en">       
+          EN
+      </LanguageSwitcher>
     </div>
   );
 };

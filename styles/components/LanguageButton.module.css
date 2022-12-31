@@ -5,25 +5,25 @@
   border: 1px solid white;
   border-radius: 4px;
 }
-.button {
-  font-size: 0.8rem;
+.container [data-language-switcher] {
+  font-size: 0.75rem;
   color: white;
   font-weight: bold;
   padding: 5px 10px;
   border: none;
 }
-.button:nth-child(1) {
+.container [data-language-switcher]:nth-child(1) {
   border-right: 1px solid white;
   border-radius: 4px 0 0 4px;
 }
-.button:last-child {
+.container [data-language-switcher]:last-child {
   border-radius: 0 4px 4px 0;
 }
 
-.button--inactive {
+.container [data-is-current="false"] {
   background-color: transparent;
   cursor: pointer;
 }
-.button--active {
+.container [data-is-current="true"] {
   background-color: #45505C;
 }

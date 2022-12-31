@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import styles from '../styles/containers/Header.module.css';
 import menuStyles from '../styles/containers/Menu.module.css';
 import { motion } from 'framer-motion';
@@ -7,9 +7,10 @@ import { useMediaQuery } from 'react-responsive';
 import Navigation from '../components/Navigation';
 import Menu from './Menu';
 import MenuButton from '../components/MenuButton';
-import LanguageButton from '../components/languageButton';
+import { useTranslation } from 'next-export-i18n';
 
 const Header = ({ topAnchor, portfolioAnchor, aboutMeAnchor, contactAnchor }) => {
+  const { t } = useTranslation();
   const [isInView, changeIsInView] = useState(true);
   const [menuIsOpen, ChangeMenuIsOpen] = useState(false);
   const isMobile = useMediaQuery({ maxWidth: 750 });
@@ -37,7 +38,6 @@ const Header = ({ topAnchor, portfolioAnchor, aboutMeAnchor, contactAnchor }) =>
         onViewportLeave={leaveView}
         onViewportEnter={enterView}
       >
-        <LanguageButton />
         <div className={styles.Logo} aria-hidden>
           <Image src={'/images/logo.png'} width={65} height={65} alt="Logo de una llama" />
         </div>
@@ -69,7 +69,7 @@ const Header = ({ topAnchor, portfolioAnchor, aboutMeAnchor, contactAnchor }) =>
           />
         </button>
         <div className={styles.MenuTitle}>
-          <p className={styles['MenuTitle__text']}>Navegación</p>
+          <p className={styles['MenuTitle__text']}>{t("navigation")}</p>
         </div>
         <Navigation
           styles={menuStyles}
