@@ -7,6 +7,7 @@ import { useMediaQuery } from 'react-responsive';
 import Navigation from '../components/Navigation';
 import Menu from './Menu';
 import MenuButton from '../components/MenuButton';
+import LanguageButton from '../components/languageButton';
 
 const Header = ({ topAnchor, portfolioAnchor, aboutMeAnchor, contactAnchor }) => {
   const [isInView, changeIsInView] = useState(true);
@@ -36,6 +37,7 @@ const Header = ({ topAnchor, portfolioAnchor, aboutMeAnchor, contactAnchor }) =>
         onViewportLeave={leaveView}
         onViewportEnter={enterView}
       >
+        <LanguageButton />
         <div className={styles.Logo} aria-hidden>
           <Image src={'/images/logo.png'} width={65} height={65} alt="Logo de una llama" />
         </div>

@@ -15,10 +15,10 @@ const Footer = () => {
         <h2>Encuentrame también en:</h2>
         <div className={styles['social-icons']}>
           <a href="https://github.com/llamafluida" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} className="fa-2x" title="github" />
+            <FontAwesomeIcon icon={faGithub} className="fa-2x" title="Github" />
           </a>
           <a href="https://github.com/ivangutierrez92" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} className="fa-2x" title="linkedin" />
+            <FontAwesomeIcon icon={faLinkedin} className="fa-2x" title="Linkedin" />
           </a>
         </div>
       </div>

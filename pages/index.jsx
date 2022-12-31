@@ -7,8 +7,12 @@ import SobreMi from '../components/AboutMe';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import Header from '../containers/Header';
+import {
+  useTranslation,
+} from "next-export-i18n";
 
 export default function Home() {
+  const { t } = useTranslation();
   const topAnchor = useRef(null);
   const portfolioAnchor = useRef(null);
   const aboutMeAnchor = useRef(null);

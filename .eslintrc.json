@@ -13,6 +13,11 @@
   ],
   "rules": {
     "semi": ["error", "always"],
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "prettier/prettier":
+    [ "error",
+      {
+        "endOfLine": "auto"}
+    ]
   }
 }

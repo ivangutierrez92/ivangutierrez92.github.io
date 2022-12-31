@@ -5,6 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import Head from 'next/head';
 config.autoAddCss = false;
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
