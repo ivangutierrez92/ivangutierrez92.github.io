@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-export-i18n';
 import React from 'react';
-import LanguageButton from '../components/languageButton';
+import LanguageButton from '../components/LanguageButton';
 
 const Navigation = ({ styles, anchorClicked, portfolioAnchor, aboutMeAnchor, contactAnchor }) => {
   const { t } = useTranslation();
