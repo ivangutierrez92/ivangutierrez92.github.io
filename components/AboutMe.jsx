@@ -28,7 +28,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
           >
-            {t("books_code")}
+            {t('books_code')}
           </motion.h2>
         </div>
         <div className={styles.Description}>
@@ -40,7 +40,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
           >
-            {t("about_me_p_1")}
+            {t('about_me_p_1')}
           </motion.p>
           <motion.p
             className={styles['Description__text']}
@@ -50,7 +50,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
           >
-            {t("about_me_p_2")}
+            {t('about_me_p_2')}
           </motion.p>
           <motion.p
             className={styles['Description__text']}
@@ -60,7 +60,7 @@ const AboutMe = () => {
             transition={{ duration: 0.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
           >
-            {t("about_me_p_3")}
+            {t('about_me_p_3')}
           </motion.p>
         </div>
       </div>

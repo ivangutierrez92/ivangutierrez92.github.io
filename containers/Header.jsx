@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 import styles from '../styles/containers/Header.module.css';
 import menuStyles from '../styles/containers/Menu.module.css';
 import { motion } from 'framer-motion';
@@ -69,7 +69,7 @@ const Header = ({ topAnchor, portfolioAnchor, aboutMeAnchor, contactAnchor }) =>
           />
         </button>
         <div className={styles.MenuTitle}>
-          <p className={styles['MenuTitle__text']}>{t("navigation")}</p>
+          <p className={styles['MenuTitle__text']}>{t('navigation')}</p>
         </div>
         <Navigation
           styles={menuStyles}

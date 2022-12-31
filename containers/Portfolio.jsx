@@ -17,7 +17,7 @@ const Portafolio = () => {
           transition={{ duration: 0.8, ease: 'easeInOut' }}
           viewport={{ once: true }}
         >
-          {t("world_phrase")}
+          {t('world_phrase')}
         </motion.h2>
       </div>
       {projectsData.map((project, key) => (

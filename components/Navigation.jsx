@@ -11,21 +11,21 @@ const Navigation = ({ styles, anchorClicked, portfolioAnchor, aboutMeAnchor, con
         className={styles['Nav__link']}
         onClick={() => anchorClicked(portfolioAnchor)}
       >
-        {t("portfolio")}
+        {t('portfolio')}
       </button>
       <button
         role="link"
         className={styles['Nav__link']}
         onClick={() => anchorClicked(aboutMeAnchor)}
       >
-        {t("about_me")}
+        {t('about_me')}
       </button>
       <button
         role="link"
         className={styles['Nav__link']}
         onClick={() => anchorClicked(contactAnchor)}
       >
-        {t("contact")}
+        {t('contact')}
       </button>
       <LanguageButton styles={styles} />
     </nav>
