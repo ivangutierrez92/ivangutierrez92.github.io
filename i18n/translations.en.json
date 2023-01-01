@@ -16,5 +16,7 @@
   "about_me_p_1": "My name is Iván Gutiérrez, I studied for librarian, but the programming world always interested me. I learnt by myself, and when I had the opportunity, I studied for Computer Programming Technician. Lastly, I studied MERN in the Mindhub Bootcamp, where we made team projects simulating a real work environment. I know some Java, C#, and SQL, but my specialty is the MERN Stack (MongoDB, Express, React, Node).",
   "about_me_p_2": "My level of english is upper intermediate, having a B2 certificate from Cambridge (FCE). I also have an Azure AZ-900 (Fundamentals), from Microsoft.",
   "about_me_p_3": "Besides of programming, I like to take photos, read, and play videogames and boardgames. In the past I was in a chorus, I was in a storytelling course, and my favorite animal is the llama.",
-  "find_me": "Find me too in"
+  "find_me": "Find me too in",
+  "ticketspass_desc": "Fullstack Web App where one can buy concert's tickets. Final project of Mindhub Bootcamp, built with a team of five leaded by me, through Agile methodologies.",
+  "mytinerary_desc": "Fullstack Web App where one can search for itineraries. Project of Mindhub Bootcamp, built in a team of 2, through Agile methodologies."
 }

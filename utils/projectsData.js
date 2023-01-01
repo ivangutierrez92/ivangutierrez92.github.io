@@ -1,5 +1,45 @@
 export default [
   {
+    title: 'TicketsPass',
+    url: 'https://ticketspass.vercel.app/',
+    src: '/images/pomodoro-preview.png',
+    description:
+      'ticketspass_desc',
+    tools: [
+      'React',
+      'Express',
+      'MongoDB',
+      'React Native',
+      'Mongoose',
+      'Passport',
+      'JWT Token',
+      'i18Next',
+      'Redux',
+      'MercadoPago',
+      'Bootstrap',
+      'Formik'
+    ],
+    icon: '🎫',
+  },
+  {
+    title: 'MyTinerary',
+    url: 'https://mytineraryteamperro.vercel.app/',
+    src: '/images/pomodoro-preview.png',
+    description:
+      'mytinerary_desc',
+    tools: [
+      'React',
+      'Express',
+      'MongoDB',
+      'React Native',
+      'Mongoose',
+      'Passport',
+      'JWT Token',
+      'Redux',
+    ],
+    icon: '✈️',
+  },
+  {
     title: 'Pomodoro',
     url: 'https://ivangutierrez92.github.io/pomodoro/',
     src: '/images/pomodoro-preview.png',
