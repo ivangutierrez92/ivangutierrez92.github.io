@@ -2,7 +2,7 @@ export default [
   {
     title: 'TicketsPass',
     url: 'https://ticketspass.vercel.app/',
-    src: '/images/pomodoro-preview.png',
+    src: '/images/ticketspass-preview.png',
     description:
       'ticketspass_desc',
     tools: [
@@ -24,7 +24,7 @@ export default [
   {
     title: 'MyTinerary',
     url: 'https://mytineraryteamperro.vercel.app/',
-    src: '/images/pomodoro-preview.png',
+    src: '/images/mytinerary-preview.png',
     description:
       'mytinerary_desc',
     tools: [
