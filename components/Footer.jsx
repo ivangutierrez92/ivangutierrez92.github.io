@@ -18,10 +18,10 @@ const Footer = () => {
       <div className={styles.social}>
         <h2>{t('find_me')}:</h2>
         <div className={styles['social-icons']}>
-          <a href="https://github.com/llamafluida" target="_blank" rel="noreferrer">
+          <a href="https://github.com/ivangutierrez92" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} className="fa-2x" title="Github" />
           </a>
-          <a href="https://github.com/ivangutierrez92" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/ivan-gutierrez-castro/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="fa-2x" title="Linkedin" />
           </a>
         </div>
